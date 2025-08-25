@@ -1,0 +1,79 @@
+/* frontend/src/components/Analysis/Analysis.css */
+.analysis-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.analysis-content {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recording-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.record-button {
+  padding: 15px 30px;
+  font-size: 1.1em;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.record-button:hover {
+  background: #45a049;
+}
+
+.record-button.recording {
+  background: #f44336;
+}
+
+.record-button.recording:hover {
+  background: #da190b;
+}
+
+.recording-indicator {
+  margin-top: 10px;
+  color: #f44336;
+  font-weight: bold;
+}
+
+.text-input-section textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  resize: vertical;
+  font-family: inherit;
+  margin-bottom: 15px;
+}
+
+.text-input-section button {
+  padding: 12px 25px;
+  background: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.text-input-section button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.analysis-result {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #2196F3;
+}

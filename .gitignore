@@ -1,0 +1,50 @@
+# Node.js / Frontend
+node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# Python / Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.env
+backend/.pytest_cache/
+backend/.coverage
+backend/coverage.xml
+backend/*.log
+
+# Database
+*.sql
+*.sqlite3
+*.db
+
+# AWS
+.aws/
+aws_credentials.json
+
+# Docker
+Dockerfile.dev
+docker-compose.yml
+*.dockerignore
+
+# Editor and OS files
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+*.iml
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+*.cache
