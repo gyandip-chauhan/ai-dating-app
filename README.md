@@ -165,5 +165,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or feedback, reach out via:
-- **Email**: support@ai-dating-app.com
+- **Email**: gyandip3395@gmail.com
 - **GitHub Issues**: [Project Issues](https://github.com/gyandip-chauhan/ai-dating-app/issues)
